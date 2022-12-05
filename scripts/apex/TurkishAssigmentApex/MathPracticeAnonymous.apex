@@ -1,0 +1,10 @@
+MathPractice mp1 = new MathPractice();
+//mp1.practiceFour(74, 1.71);
+// mp1.practiceOne(12.58, 15.28);
+// mp1.practiceTwo(1.78, 85.5);
+// mp1.practiceThree('cevre', 5.25, 10.65);
+// mp1.practiceThree('alan', 5.25, 10.65);
+// mp1.practiceThree('hacim', 5.25, 10.65);
+mp1.practiceFive(10, 15);
+mp1.practiceFive(10, 10);
+mp1.practiceFive(15, 10);

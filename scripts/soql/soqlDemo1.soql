@@ -1,0 +1,12 @@
+public class SoqlDemo {
+    public static void accountSOQL_1() {
+        list<account> listAccount = [select id, name from account where name like '%a%'];
+        system.debug('list of account --> ' + listAccount);
+    }
+
+    public static void accountSOQL_11() {
+       account acc = [select id, name from account order by createddate desc limit 1];
+       system.debug('latest created account is -> ' + acc);
+    }
+
+}
